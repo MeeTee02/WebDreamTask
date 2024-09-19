@@ -49,7 +49,7 @@ class Student extends Human
      */
     public function getAverageGrade(): float
     {
-        if (count($this->grades) === 0) {
+        if (empty($this->grades)) {
             throw new \Exception("There are no grades available");
         }
 

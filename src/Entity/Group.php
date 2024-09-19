@@ -42,7 +42,7 @@ class Group
      */
     public function getGroupAverageGrade(): float
     {
-        if (count($this->students) === 0) {
+        if (empty($this->students)) {
             throw new \Exception("Cannot calculate group average. No students in the group.");
         }
 
