@@ -1,4 +1,4 @@
-### WebDream - Junior PHP Developer Task 
+### WebDream - Junior PHP Developer Task (PHP 8.3)
 
 - Created some Exceptions, but you can add even more if necessary
 - Human is an abstract class but getter/setter implementations won't change in children
