@@ -20,6 +20,9 @@ try {
     $student5 = new Student("Student Five", "Female", 2006, "South High", [4, 5, 5, 4]);
     $student6 = new Student("Student Six", "Male", 2004, "South High", [3, 4, 2, 5]);
 
+    echo $student1 . "\n\n";
+    echo "Average grade of {$student1->getName()}: " . $student1->getAverageGrade() . "\n\n";
+
     // Groups
     $group1 = new Group($teacher1, [$student1, $student2]);
     $group2 = new Group($teacher2, [$student3, $student4]);

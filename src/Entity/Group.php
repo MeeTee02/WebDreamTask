@@ -9,6 +9,10 @@ class Group
 
     public function __construct(Teacher $groupLead, array $students)
     {
+        if (empty($students)) {
+            throw new \Exception("No students added to group");
+        }
+
         $this->groupLead = $groupLead;
         $this->students = $students;
     }

@@ -60,10 +60,6 @@ class Student extends Human
     {
         $grades = implode(', ', $this->grades);
 
-        return "Name: {$this->getName()}\n
-         Gender: {$this->getGender()}\n
-         Birth Year: {$this->getBirthYear()}}\n 
-         School: {$this->getSchool()}\n
-         Grades: {$grades}\n\n";
+        return "Name: {$this->getName()},\nGender: {$this->getGender()},\nBirth Year: {$this->getBirthYear()},\nSchool: {$this->getSchool()},\nGrades: {$grades}";
     }
 }
